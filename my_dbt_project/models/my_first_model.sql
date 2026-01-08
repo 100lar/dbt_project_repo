@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'table',
+    schema = 'staging',
+    alias = 'registrations'
 ) }}
 
 with source as (
@@ -24,4 +26,3 @@ monthly as (
 
 select *
 from monthly
---order by registration_month
