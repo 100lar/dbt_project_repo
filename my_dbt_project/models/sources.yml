@@ -9,7 +9,7 @@ sources:
     schema: raw
     description: "Raw ingested data from source systems"
     tables:
-      - name: customer
+      - name: customers
         description: "Raw customer data as ingested from source system"
         columns:
           - name: customer_id
