@@ -23,4 +23,4 @@ monthly as (
 
 select *
 from monthly
-order by registration_month
+--order by registration_month
