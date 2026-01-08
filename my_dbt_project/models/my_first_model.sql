@@ -7,7 +7,7 @@ with source as (
     select
         customer_id,
         registration_date
-    from {{ source('raw', 'customer') }}
+    from {{ source('raw', 'customers') }}
 
 ),
 
