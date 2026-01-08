@@ -17,7 +17,7 @@ sources:
               - not_null
               - unique
 
-          - name: registration_date
+          - name: signup_date
             tests:
               - not_null
 
