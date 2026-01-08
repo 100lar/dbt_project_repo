@@ -6,7 +6,7 @@ with source as (
 
     select
         customer_id,
-        registration_date
+        signup_date as registration_date
     from {{ source('raw', 'customers') }}
 
 ),
